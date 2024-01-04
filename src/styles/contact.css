@@ -1,0 +1,33 @@
+.main-form {
+  width: 100%;
+  height: calc(100vh - 60px - 150px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: poppins;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+form {
+  border: 1px solid #333;
+  margin-top: 20px;
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+form div {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 20px;
+}
+
+form div input,
+textarea {
+  padding: 5px;
+}

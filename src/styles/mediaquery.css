@@ -1,0 +1,37 @@
+@media screen and (max-width: 500px) {
+  body {
+    width: 100%;
+  }
+  nav {
+    width: 100%;
+    height: 100px;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  nav .nav-links {
+    gap: 25px;
+  }
+  .home .home-text p:nth-child(1) {
+    font-size: 3rem;
+  }
+  .footer-container {
+    padding: 0 10px;
+  }
+  .footer-company-rights h1 {
+    font-size: 25px;
+  }
+  .info {
+    height: 110vh;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .info-first {
+    width: 100%;
+    height: 50%;
+  }
+  .info-second {
+    margin-top: 40px;
+    width: 100%;
+    height: 50%;
+  }
+}

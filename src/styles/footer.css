@@ -1,0 +1,31 @@
+footer {
+  width: 100%;
+  height: 150px;
+  color: #fff;
+  font-family: poppins;
+  background-color: #333;
+}
+
+.footer-container {
+  width: 100%;
+  height: 100%;
+  padding: 0 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-company-rights h1 {
+  font-size: 50px;
+}
+
+.footer-link {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-link a {
+  color: blue;
+  text-decoration: none;
+}
